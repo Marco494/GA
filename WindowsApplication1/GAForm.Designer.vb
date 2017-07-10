@@ -44,31 +44,31 @@ Partial Class GAForm
         Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.listFunctions = New System.Windows.Forms.ListBox()
-        Me.listDecimal = New System.Windows.Forms.ListBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.listMutation = New System.Windows.Forms.ListBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.listFunctions = New System.Windows.Forms.ListBox()
+        Me.listDecimal = New System.Windows.Forms.ListBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label20 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.Label20 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.Label16 = New System.Windows.Forms.Label()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Parameters.SuspendLayout()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -288,7 +288,7 @@ Partial Class GAForm
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Arial", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(190, 12)
+        Me.Label3.Location = New System.Drawing.Point(188, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(706, 44)
         Me.Label3.TabIndex = 10
@@ -312,25 +312,25 @@ Partial Class GAForm
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Crossover && Mutation"
         '
-        'listFunctions
+        'Label15
         '
-        Me.listFunctions.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.listFunctions.FormattingEnabled = True
-        Me.listFunctions.ItemHeight = 18
-        Me.listFunctions.Location = New System.Drawing.Point(120, 94)
-        Me.listFunctions.Name = "listFunctions"
-        Me.listFunctions.Size = New System.Drawing.Size(151, 112)
-        Me.listFunctions.TabIndex = 14
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(237, 69)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(183, 16)
+        Me.Label15.TabIndex = 16
+        Me.Label15.Text = "Bitwise Mutation based on % rate"
         '
-        'listDecimal
+        'Label14
         '
-        Me.listDecimal.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.listDecimal.FormattingEnabled = True
-        Me.listDecimal.ItemHeight = 18
-        Me.listDecimal.Location = New System.Drawing.Point(12, 94)
-        Me.listDecimal.Name = "listDecimal"
-        Me.listDecimal.Size = New System.Drawing.Size(80, 112)
-        Me.listDecimal.TabIndex = 13
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(9, 69)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(212, 16)
+        Me.Label14.TabIndex = 15
+        Me.Label14.Text = "Two parents picked and tales swapped"
         '
         'Label7
         '
@@ -363,6 +363,26 @@ Partial Class GAForm
         Me.Label6.Size = New System.Drawing.Size(139, 22)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Crossed Over"
+        '
+        'listFunctions
+        '
+        Me.listFunctions.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.listFunctions.FormattingEnabled = True
+        Me.listFunctions.ItemHeight = 18
+        Me.listFunctions.Location = New System.Drawing.Point(120, 94)
+        Me.listFunctions.Name = "listFunctions"
+        Me.listFunctions.Size = New System.Drawing.Size(151, 112)
+        Me.listFunctions.TabIndex = 14
+        '
+        'listDecimal
+        '
+        Me.listDecimal.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.listDecimal.FormattingEnabled = True
+        Me.listDecimal.ItemHeight = 18
+        Me.listDecimal.Location = New System.Drawing.Point(12, 94)
+        Me.listDecimal.Name = "listDecimal"
+        Me.listDecimal.Size = New System.Drawing.Size(80, 112)
+        Me.listDecimal.TabIndex = 13
         '
         'Label5
         '
@@ -416,16 +436,6 @@ Partial Class GAForm
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "First Generation Results"
         '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(14, 69)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(118, 16)
-        Me.Label12.TabIndex = 15
-        Me.Label12.Text = "Randomly Generated"
-        '
         'Label13
         '
         Me.Label13.AutoSize = True
@@ -436,25 +446,15 @@ Partial Class GAForm
         Me.Label13.TabIndex = 16
         Me.Label13.Text = "Based on number of 1's"
         '
-        'Label14
+        'Label12
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(9, 69)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(212, 16)
-        Me.Label14.TabIndex = 15
-        Me.Label14.Text = "Two parents picked and tales swapped"
-        '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(237, 69)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(183, 16)
-        Me.Label15.TabIndex = 16
-        Me.Label15.Text = "Bitwise Mutation based on % rate"
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(14, 69)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(118, 16)
+        Me.Label12.TabIndex = 15
+        Me.Label12.Text = "Randomly Generated"
         '
         'TextBox1
         '
@@ -504,26 +504,46 @@ Partial Class GAForm
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Function Results"
         '
-        'Label16
+        'Label23
         '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.LightGray
-        Me.Label16.Location = New System.Drawing.Point(8, 47)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(84, 22)
-        Me.Label16.TabIndex = 18
-        Me.Label16.Text = "Decimal"
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.ForeColor = System.Drawing.Color.LightGray
+        Me.Label23.Location = New System.Drawing.Point(294, 47)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(116, 22)
+        Me.Label23.TabIndex = 21
+        Me.Label23.Text = "Breakdown"
         '
-        'Label17
+        'Label22
         '
-        Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(9, 71)
-        Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(100, 16)
-        Me.Label17.TabIndex = 19
-        Me.Label17.Text = "Binary to Decimal"
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(295, 166)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(29, 16)
+        Me.Label22.TabIndex = 24
+        Me.Label22.Text = "Max"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(295, 119)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(51, 16)
+        Me.Label21.TabIndex = 23
+        Me.Label21.Text = "Average"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(295, 71)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(31, 16)
+        Me.Label20.TabIndex = 22
+        Me.Label20.Text = "Sum"
         '
         'Label18
         '
@@ -546,46 +566,26 @@ Partial Class GAForm
         Me.Label19.TabIndex = 20
         Me.Label19.Text = "Population"
         '
-        'Label20
+        'Label17
         '
-        Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(295, 71)
-        Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(31, 16)
-        Me.Label20.TabIndex = 22
-        Me.Label20.Text = "Sum"
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(9, 71)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(100, 16)
+        Me.Label17.TabIndex = 19
+        Me.Label17.Text = "Binary to Decimal"
         '
-        'Label21
+        'Label16
         '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(295, 119)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(51, 16)
-        Me.Label21.TabIndex = 23
-        Me.Label21.Text = "Average"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Arial Narrow", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(295, 166)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(29, 16)
-        Me.Label22.TabIndex = 24
-        Me.Label22.Text = "Max"
-        '
-        'Label23
-        '
-        Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.ForeColor = System.Drawing.Color.LightGray
-        Me.Label23.Location = New System.Drawing.Point(294, 47)
-        Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(116, 22)
-        Me.Label23.TabIndex = 21
-        Me.Label23.Text = "Breakdown"
+        Me.Label16.AutoSize = True
+        Me.Label16.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.ForeColor = System.Drawing.Color.LightGray
+        Me.Label16.Location = New System.Drawing.Point(8, 47)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(84, 22)
+        Me.Label16.TabIndex = 18
+        Me.Label16.Text = "Decimal"
         '
         'GAForm
         '
